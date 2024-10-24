@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    height: 150px;
+    background-color: #000000;
+    font-family: "Century Gothic";
+    font-size: 60px;
+    color: #FFFFFF;
+}
+footer {
+    padding: 16px;
+    font-size: 12px;
+}
+nav {
+    background-color: #000000;
+    margin: 0;
+    padding: 16px;
+    color: #FFFFFF;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+nav ul a {
+    margin: 0px;
+    padding: 16px 24px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Century Gothic";
+}
+ul a li:hover  {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+#home {
+    background-image: url(images/city.jpg);
+    background-size: cover;
+    width: 1366px;
+    height: 784px;
+    text-align: center;
+    color: #000000;
+    font-family: Century, "Century Schoolbook";
+    font-size: 140px;
+}
+#news {
+    background-image: url(images/city2.jpg);
+    width: 1366px;
+    height: 784px;
+}
+#newsdiv {
+    width: 600px;
+    color: #FFFFFF;
+    font-size: 55px;
+    position: absolute;
+    top: 364px;
+    left: 924px;
+}
+#musicstore {
+    background-image: url(images/music_store.jpg);
+    width: 1366px;
+    height: 662px;
+    color: #FFFFFF;
+}
+#videos {
+    background-image: url(images/videos.jpg);
+    width: 1366px;
+    height: 662px;
+}
+#tour {
+    color: #000000;
+    height: 784px;
+    font-family: Century, "Century Schoolbook";
+    text-align: center;
+    font-size: 60px;
+    margin-top: 141px;
+}
+#photos {
+    background-color: #023859;
+    height: 662px;
+    position: relative;
+}
+#pic1 {
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+
+#pic2 {
+    position: relative;
+    top: 12px;
+    left: 500px;
+}
+#pic3 {
+    position: relative;
+    top: 262px;
+    left: -349px;
+}
+#mailing {
+    background-color: #011f26;
+    color: #FFFFFF;
+    font-family: Century, "Century Schoolbook";
+    font-size: 60px;
+    position: relative;
+    top: 0px;
+    width: 1366px;
+    height: 784px;
+}
+#mailtext {
+    position: relative;
+    top: 102px;
+    left: 503px;
+}
+#subscribe {
+    position: relative;
+    top: 120px;
+    left: 503px;
+}
+#merchandise {
+    display: block;
+    text-align: center;
+    height: 784px;
+    position: relative;
+    top: 7px;
+    width: 1366px;
+}
+#blogs {
+    background-color: #025e73;
+    width: 1366px;
+    height: 784px;
+    margin: 0px;
+    color: #FFFFFF;
+    font-family: Century, "Century Schoolbook";
+    font-size: 60px;
+}
+#blogsheader {
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 30px;
+}
+#blogstext {
+    color: #FFFFFF;
+    font-family: Century, "Century Schoolbook";
+    margin: 0;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#blogsheader2 {
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+#blogstext2 {
+    color: #FFFFFF;
+    font-family: Century, "Century Schoolbook";
+    font-size: 25px;
+    margin: 0;
+    padding-left: 30px;
+}
+
+#privacy {
+    background-color: #023859;
+    width: 1366px;
+    height: 784px;
+    color: #FFFFFF;
+}
+#privacytext {
+    color: #FFFFFF;
+    font-family: Century, "Century Schoolbook";
+    font-size: 30px;
+    width: 700px;
+    text-align: left;
+    position: relative;
+    left: 320px;
+    top: 176px;
+}
+#cart1 {
+    position: relative;
+    right: 184px;
+}
+#cart2 {
+}
+#cart3 {
+    left: 210px;
+    position: relative;
+}
