@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Amazon Polo</title>
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+wrapper {
+    margin: 0 auto;
+    width: 1366px;
+    background-color: #FFFFFF;
+    display: block;
+    position: relative;
+}
+ul li {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: "Century Gothic";
+    font-size: 30px;
+    color: #000000;
+}
+ul li:hover {
+    font-style: italic;
+}
+nav {
+    text-align: center;
+}
+.title {
+    font-size: 25px;
+    font-family: "Century Gothic";
+    border-bottom: 1px solid #000000;
+}
+.productdetails {
+    font-family: "Century Gothic";
+    font-weight: normal;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    bottom: 0px;
+    margin-left: 66px;
+    margin-top: 147px;
+}
+.pictures img {
+    position: absolute;
+}
+.pictures {
+    margin-left: 212px;
+    margin-top: 46px;
+    position: absolute;
+}
+.colors {
+    position: relative;
+    left: 590px;
+    margin-left: 64px;
+    height: 206px;
+}
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Century Gothic";
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 10px;
+    position: static;
+}
+.colors img {
+    border: medium solid #FFFFFF;
+}
+.colors img:hover {
+    border: medium solid #FF0004;
+}
+.search-container {
+    display: inline-block;
+    text-align: left;
+    margin-left: 562px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('backblack.jpg','backblue.jpg','backcharcoal.jpg')">
+<wrapper>
+  <header><img src="haneslogo.jpg" alt="" width="125" height="109" class="logo"/>
+	<div class="search-container">
+        <form action="/search">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit">Search</button>
+        </form>
+    </div></header>
+  <nav>
+    <ul>
+      <a href="#"><li>Jeans</li></a>
+      <a href="#"><li>Shirts</li></a>
+      <a href="#"><li>Polos</li></a>
+      <a href="#"><li>Pants</li></a>
+      <a href="#"><li>Sweaters</li></a>
+    </ul>
+ </nav>
+  <div class="pictures"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Charcaolpolo','','backcharcoal.jpg',1)"><img src="frontcharcoal.jpg" alt="Charcaol Polo Shirt" width="350" height="481" id="Charcaolpolo"></a>  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Blue Polo','','backblue.jpg',1)"><img src="frontblue.jpg" alt="Blue Polo Shirt" width="350" height="481" id="Blue Polo"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Blackpolo','','backblack.jpg',1)"><img src="frontblack.jpg" alt="" width="350" height="487" id="Blackpolo"></a> </div>
+  <div class="productdetails">
+    <div class="title">Hanes Men's X-Temp Short Sleeve Polo Shirt</div>
+    <br>
+    <div>Product Details:</div>
+    <div>Fabric Type: 50% Polyester, 50% Cotton</div>
+    <div>Care Instructions: Mahine Wash</div>
+    <div>Origin: Imported</div>
+    <div>Closure Type: Button</div>
+    <br>
+    <div>Price: $12.84</div>
+  </div>
+  
+<div class="colors"><a onClick="MM_showHideLayers('Charcaolpolo','','hide','Blue Polo','','hide','Blackpolo','','show')"><img src="black.jpg" alt="" width="60" height="79" class="black"></a><a onClick="MM_showHideLayers('Charcaolpolo','','hide','Blue Polo','','show','Blackpolo','','hide')"><img src="blue.jpg" alt="" width="60" height="79" class="blue"></a><a onClick="MM_showHideLayers('Charcaolpolo','','show','Blue Polo','','hide','Blackpolo','','hide')"><img src="charcoal.jpg" alt="" width="60" height="79" class="charcoal"></a>
+	</div>
+<footer><p>© 2024, Nelson Peguero. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+</wrapper>
+</body>
+</html>
