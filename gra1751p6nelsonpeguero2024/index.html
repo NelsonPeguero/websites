@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<title>Boardwalk Travel | Nelson Peguero , 2024</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+
+<meta charset="utf-8">
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Oswald", sans-serif;
+}
+header {
+    background-color: #FFFFFF;
+    margin-left: -1px;
+    padding-left: 17px;
+}
+img {
+    padding: 20px;
+}
+wrapper {
+    width: 1366px;
+    margin-top: 32;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+    display: block;
+    border-radius: 16px;
+    border: none;
+    background-color: rgba(0,0,0,0.50);
+}
+#Tabs1 ul {
+    background-image: none;
+    border: 0;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+#Tabs1 {
+    background-image: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+#Tabs1 li {
+    background-image: none;
+    background-color: rgba(255,255,255,0.25);
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-left: px;
+    margin-bottom: 8;
+    text-align: center;
+    border-width: thin;
+    border-radius: 8px;
+    border-style: solid;
+}
+#Tabs1 li :hover {
+    background-color: rgba(0,153,255,0.50);
+}
+#Tabs1 a {
+    color: #fff;
+    font-family: Oswald;
+}
+input ,select{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: oswald;
+    border-radius: 8px;
+    border: thin solid #09f;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+#Submit {
+    width: 200px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    background-color: #09f;
+    display: block;
+    color: #fff;
+}
+#Submit2 {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    background-color: #09f;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+#Submit3 {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background-color: #09f;
+}
+#Submit4 {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    background-color: #09f;
+}
+#Submit5 {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #09f;
+    color: #fff;
+}
+footer  {
+    padding: 3px;
+    color: #09f;
+    background-color: #fff;
+    font-family: oswald;
+    position: fixed;
+    bottom: 0px;
+}
+</style>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<header><img src="logo.png" alt="" width="106" height="100"></header>
+<wrapper>
+  <div id="Tabs1">
+    <ul>
+      <li><a href="#tabs-1"><img src="aircraft.png" alt="" width="51" height="50"><br>
+      Flights</a></li>
+      <li><a href="#tabs-2"><img src="hotel.png" alt="" width="50" height="50"><br>
+      Hotels</a>      </li>
+      <li><a href="#tabs-3"><img src="car.png" alt="" width="51" height="50"><br>
+      Cars</a></li>
+      <li><a href="#tabs-4"><img src="boat.png" alt="" width="51" height="50"><br>
+      Cruises</a></li>
+      <li><a href="#tabs-5"><img src="baseball.png" alt="" width="51" height="50"><br>
+      Things to Do</a></li>
+    </ul>
+    <div id="tabs-1">
+          <input type="text" placeholder="Going to">
+          <section><input type="date"></section>
+          <section><input type="date"></section>
+          <select>
+            <option value="0">Number of travelers</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+		<input name="Submit" type="submit" id="Submit">
+    </div>
+    <div id="tabs-2">
+      <input type="text" placeholder="Select your Room">
+          <section><input type="date"></section>
+          <section><input type="date"></section>
+          <select>
+            <option value="0">Number of guests</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+		<input name="Submit" type="submit" id="Submit2">
+    </div>
+    <div id="tabs-3">
+      <input type="text" placeholder="Car type">
+          <section><input type="date"></section>
+          <section><input type="date"></section>
+		<input name="Submit" type="submit" id="Submit3">
+    </div>
+    <div id="tabs-4">
+      <input type="text" placeholder="Going to">
+          <section><input type="date"></section>
+          <section><input type="date"></section>
+		<select>
+            <option value="0">Number of travelers</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+		<input name="Submit" type="submit" id="Submit4">
+    </div>
+    <div id="tabs-5">
+      <input type="text" placeholder="Type of activity">
+          <section><input type="date"></section>
+          <section><input type="date"></section>
+		<select>
+            <option value="0">Number of people</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+		<input name="Submit" type="submit" id="Submit5">
+		
+    </div>
+  </div>
+</wrapper>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+<footer><p>© 2024, Nelson Peguero. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</html>
