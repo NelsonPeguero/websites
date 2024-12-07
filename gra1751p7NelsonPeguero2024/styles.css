@@ -1,0 +1,115 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ccc;
+}
+wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff;
+}
+header {
+    height: 100px;
+    padding: 16px;
+    border-bottom: 20px solid #000;
+}
+footer {
+    padding: 16px;
+}
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+    color: #333;
+    font-family: "Century Gothic";
+}
+section {
+    width: 50%;
+    display: inline-block;
+    padding: 16px;
+    margin-right: -4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-family: "Century Gothic";
+    font-size: 12px;
+}
+label {
+    display: block;
+    font-family: "Century Gothic";
+}
+input, select {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 90%;
+}
+#tandc_txt {
+    margin-left: 16px;
+    margin-top: 10px;
+    width: auto;
+}
+#salute {
+    width: 25%;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+#first {
+    width: 72%;
+    display: inline-block;
+    margin-right: -4px;
+}
+#submit_btn {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #09f;
+    font-size: 20px;
+}
+#logo {
+    text-align: left;
+    float: left;
+    margin-right: 62px;
+}
+#headertxt {
+    color: rgba(255,0,4,1.00);
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    margin-top: 14px;
+}
+#header2 {
+    background-color: rgba(255,255,255,1.00);
+}
+#body2 {
+    background-color: rgba(255,255,255,1.00);
+    margin-top: 0px;
+}
+#foto {
+    margin-left: 160px;
+    margin-top: 46px;
+
+
+}
+#sides1 {
+    width: 50%;
+    font-family: "Comic Sans MS";
+    color: rgba(255,0,4,1.00);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    display: inline-block;
+}
+#sides2 {
+    color: rgba(247,4,8,1.00);
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+    width: 40%;
+}
