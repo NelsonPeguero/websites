@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Parallax Scrolling | Chuck Taylor | Nelson Peguero, 2025</title>
+<style type="text/css">
+	
+html, body {
+	height: 100vh;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+wrapper {
+    width: 1366px;
+    height: 100vh;
+    margin: 0 auto;
+    display: block;
+	perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+header {
+}
+.logo {
+    float: left;
+}
+.website {
+    color: rgba(0,0,0,1.00);
+    font-family: "Century Gothic";
+    font-size: 25px;
+    padding-top: 117px;
+}
+.black {
+    background-image: url(black_bg.png);
+    background-size: cover;
+    transform: translateZ(-10px) scale(11);
+    margin-top: 3045px;
+}
+.blue {
+    background-image: url(blue_bg.png);
+    background-size: cover;
+	transform: translateZ(-5px) scale(6);
+    margin-top: 4100px;
+}
+.purple {
+    background-image: url(purple_bg.jpg);
+    background-size: cover;
+    transform: translateZ(-1px) scale(2);
+    margin-top: 600px;
+    margin-bottom: 150px;
+}
+.size {
+    width: 400px;
+    color: rgba(0,0,0,1.00);
+    font-family: "Century Gothic";
+    font-size: 70px;
+    border-width: thin;
+    border-style: solid;
+    margin-left: 760px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 116px;
+}
+.color {
+    width: 400px;
+    color: rgba(25,34,107,1.00);
+    font-family: "Century Gothic";
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 760px;
+    border-width: thin;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 120px;
+}
+.yourself {
+    width: 400px;
+    margin-left: 760px;
+    color: rgba(94,29,147,1.00);
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 70px;
+    border-width: thin;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 120px;
+}
+footer {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Century Gothic";
+}
+section {
+    clear: left;
+    height: 768px;
+    background-attachment: scroll;
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <header><img src="logo.jpg" alt="" width="300" height="250" class="logo"/>
+    <div class="website">www.converse.com</div>
+  </header>
+  <section class="black">
+    <div class="size">Find your size.</div>
+  </section>
+<section class="blue">
+  <div class="color">Find your color.</div>
+</section>
+  <section class="purple">
+    <div class="yourself">Find Yourself.</div>
+  </section>
+  <footer><p>© 2025, Nelson Peguero. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
