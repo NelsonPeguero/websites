@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<title>Project 1 | Marvin the Martian | Nelson Peguero</title>
+<style>
+wrapper {
+    width: 1162px;
+    margin: 0 auto;
+    display: block;
+}
+
+	
+#div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9, #div10 {
+    display: inline-block;
+    width: 166px;
+    height: 166px;
+    border: 1px solid white;
+}
+	
+	#div01, #div02, #div03, #div04, #div05, #div06, #div07, #div08, #div09 {
+  display: inline-block;
+  width: 166px;
+  height: 166px;
+  border: 1px solid white;
+}
+	
+.marvin, .marvin2 {
+	display: inline-block;
+
+	}
+	
+
+	
+	.marvin2 {
+		margin-left: 100px;
+	}
+body {
+    color: rgba(0,0,0,1.00);
+    background-color: rgba(0,0,0,1.00);
+}
+	
+		
+	
+h2 {
+    color: rgba(21,185,24,1.00);
+    font-family: "Comic Sans MS";
+    text-align: center;
+    font-size: 50px;
+    margin-top: -20px;
+}
+p {
+    color: rgba(39,183,34,1.00);
+    font-family: "Comic Sans MS";
+    text-align: center;
+    margin-top: -30px;
+    font-style: 25px;
+}
+</style>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+<wrapper>
+  <h2>Marvin the Martian</h2>
+  <p>Can you help put Marvin the Martian back together?</p>
+  
+  <div class="marvin">
+    <div id="div01" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="marvinthemartian_03.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="166" height="166">
+    </div>
+    <div id="div02" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_06.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="166" height="166"> </div>
+    <div id="div03" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_02.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="166" height="166"></div><br>
+    
+    <div id="div04" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_08.jpg" draggable="true" ondragstart="drag(event)" id="drag4" width="166" height="166"></div>
+    <div id="div05" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_09.jpg" draggable="true" ondragstart="drag(event)" id="drag5" width="166" height="166"></div>
+    <div id="div06" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_05.jpg" draggable="true" ondragstart="drag(event)" id="drag6" width="166" height="166"></div><br>
+    
+    <div id="div07" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_04.jpg" draggable="true" ondragstart="drag(event)" id="drag7" width="166" height="166"></div>
+    <div id="div08" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_07.jpg" draggable="true" ondragstart="drag(event)" id="drag8" width="166" height="166"></div>
+    <div id="div09" ondrop="drop(event)" ondragover="allowDrop(event)"> <img src="marvinthemartian_01.jpg" draggable="true" ondragstart="drag(event)" id="drag9" width="166" height="166"></div>
+  </div>
+  
+  <div class="marvin2">
+    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
+    
+    <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
+    
+    <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  </div>
+  <footer>Content for New footer Tag Goes Here</footer>
+</wrapper>
+
+</body>
+</html>
