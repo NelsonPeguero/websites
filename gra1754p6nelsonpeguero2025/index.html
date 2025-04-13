@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+<title>Design Gardens | Nelson Peguero,2025</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
+<script type="text/javascript">
+  $(document).ready(
+    function() {
+      $('#icon').click (
+        function() {
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
+        }
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
+</script>
+
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+}
+wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+header {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    height: 300px;
+}
+.dg {
+    display: inline-block;
+    font-family: "Century Gothic";
+    margin: 0;
+    padding: 0;
+    font-size: 488%;
+}
+.dg h1 {
+    margin: 0;
+}
+.dg2 {
+    display: inline-block;
+    font-family: Darleston;
+    font-size: 4em;
+}
+#nav {
+    margin: 0;
+    display: inline-block;
+}
+#nav ul {
+    font-family: "Century Gothic";
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+nav ul li {
+    color: #34ab00;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Century Gothic";
+    font-size: 2em;
+}
+#nav ul a {
+    font-family: "Century Gothic";
+    text-decoration: none;
+    list-style-type: none;
+    color: #34AB00;
+}
+#nav ul a:hover {
+    font-style: italic;
+    font-family: "Century Gothic";
+    border-right: thin solid #000000;
+    border-left: thin solid #000000;
+    display: inline-block;
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.container .desc1 {
+    font-family: "Century Gothic";
+    margin: 0 auto;
+    font-size: 2.3em;
+}
+.container .descr2 {
+    font-family: "Century Gothic";
+    font-size: 2em;
+    margin: 0 auto;
+    width: 400px;
+}
+.container .descr3 {
+    font-family: "Century Gothic";
+    margin: 0 auto;
+    font-size: 2em;
+}
+.menu {
+    display: inline-block;
+    font-size: 2em;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu ul a {
+    font-family: "Century Gothic";
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    color: #34AB00;
+}
+.menu ul a:hover {
+    border-right: thin solid #090909;
+    border-left: thin solid #000000;
+    font-style: italic;
+}
+.companyname {
+    display: inline-block;
+	
+	
+}
+footer {
+    margin: 25px;
+}
+
+@media (max-width:40em){
+.companyname .dg2 {
+    visibility: hidden;
+}
+.companyname .menu {
+    visibility: hidden;
+}
+}
+
+@media (min-width:40em){
+#icon {
+    visibility: hidden;
+}
+#x_icon {
+    visibility: hidden;
+}
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <header><img src="menu.png" alt="Navigation icon. Click to expand navigation menu." width="70" height="72" id="icon"/><img id="x_icon" src="x.png" alt="Exit out icon. Click to close navigation menu." width="100" height="102" style="display: none;" />
+    <nav id="nav" style="display: none;">
+        <ul>
+          <a href="#about_us" id="about_us_link">
+            <li>About Us</li>
+          </a> <a href="#blogs" id="blogs_link">
+              <li>Blogs</li>
+              </a> <a href="#contact_us" id="contact_us_link">
+                <li>Contact Us</li>
+                </a>
+        </ul>
+      </nav>
+    
+    <div class="companyname">
+      <div class="dg">
+        <h1>DG</h1>
+      </div>
+      <div class="dg2">
+        <h2>Designer Gardens</h2>
+      </div>
+     
+	<div class="menu">
+        <ul>
+          <a href="#"><li>Home</li></a>
+			<a href="#"><li>Designs</li></a>
+			<a href="#"><li>Tutorials</li></a>
+			<a href="#"><li>About Us</li></a>
+		  
+		  </ul>
+      </div>
+    </div>
+    </header>
+  <main>
+    <div class="container">
+      <div class="desc1"><img src="image_one_small.jpg"  alt=""/><p class="descr1">Learn how to plant.</p></div>
+      <div class="descr2"><img src="image_two_small.jpg" alt=""/><p>Choose from a variety of plants.</p></div>
+      <div class="descr3"><img src="image_three_small.jpg" alt=""/><p>Plant, and have fun!</p></div>
+	
+    </div>
+  </main>
+  <footer>© 2025, Nelson Peguero
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+	
+</body>
+</html>
