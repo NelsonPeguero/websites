@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Century Gothic";
+}
+wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+#nav ul a {
+    text-decoration: none;
+    color: #000000;
+    list-style-type: none;
+}
+#nav ul a:hover  {
+    text-decoration: none;
+    color: #000000;
+    list-style-type: none;
+    font-style: italic;
+}
+wrapper main h1 {
+    color: #FF0004;
+    width: 90%;
+}
+section {
+    width: 100%;
+
+}
+section form input {
+    padding: 16px;
+    margin: 16px;
+
+}
+
+section form label {
+    font-size: 20px;
+    display: block;
+}
+.mainmenu {
+    border-top: thin solid #000000;
+    border-bottom: thin solid #000000;
+    visibility: hidden;
+}
+
+.mainmenu ul a {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 35px;
+    color: #000000;
+}
+.mainmenu ul a:hover  {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 35px;
+    color: #000000;
+    font-style: italic;
+}
+ul a li {
+    margin-right: 60px;
+}
+
+
+
+
+@media (min-width:50em){
+#icon {
+    visibility: hidden;
+}
+#nav {
+    visibility: hidden;
+}
+.mainmenu {
+    visibility: visible;
+}
+section form div {
+    display: inline-block;
+    margin-right: 100px;
+}
+main section form {
+    text-align: center;
+}
+section form section {
+    text-align: left;
+}
+.sec2 {
+    text-align: left;
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width:100em){
+#icon {
+    visibility: hidden;
+}
+#nav {
+    visibility: hidden;
+}
+.mainmenu {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+}
