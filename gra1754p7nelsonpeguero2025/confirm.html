@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pizza Hut Confirmation Page | Your Name, 202_</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script type="text/javascript">
+    $(document).ready(
+        function() {
+            $('#icon').click (
+                function() {
+                    $('#nav').show();
+                    $('#icon').hide();
+                    $('#x_icon').show();
+                }
+            );
+            $('#x_icon').click (
+                function() {
+                    $('#nav').hide();
+                    $('#icon').show();
+                    $('#x_icon').hide();
+                }
+            );
+        }
+    );
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<wrapper>
+  <header><img src="images/pizza-hut-logo.jpg" alt="" class="logo"></header>
+            <img id="icon" src="images/navigation_icon.gif" alt="Navigation icon. Click to expand navigation menu."/>
+		<img id="x_icon" src="images/x_icon.gif" alt="Exit out icon. Click to close the navigation menu." style="display: none;" />
+        <nav id="nav">
+            <ul>
+                <a href="#about_us" id="about_us_link"><li>About Us</li></a>
+                <a href="#blogs" id="blogs_link"><li>Blogs</li></a>
+                <a href="#contact_us" id="contact_us_link"><li>Contact Us</li></a>
+            </ul>
+        </nav>
+  <main id="confirm">
+    <h1>Congrats!!!</h1>
+    <p>Thank you for signing up for Hut Rewards.</p>
+<p>Start earning free pizza now.</p>
+      <input type="submit" id="submit" value="Start Your Order">
+      <p>Only at participating locations. Online only.</p>
+  &nbsp;</main>
+  <footer><p>© 2025, Nelson Peguero. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</wrapper>
+</body>
+</html>
