@@ -10,6 +10,24 @@ wrapper {
     display: block;
     width: 80%;
 }
+.logo {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+}
+
+#nav {
+    display: none;
+}
+#nav ul {
+    font-family: "Century Gothic";
+    color: #000000;
+    font-size: 2em;
+}
+
+
 #nav ul a {
     text-decoration: none;
     color: #000000;
@@ -17,13 +35,15 @@ wrapper {
 }
 #nav ul a:hover  {
     text-decoration: none;
-    color: #000000;
+    color: #FF0004;
     list-style-type: none;
     font-style: italic;
 }
 wrapper main h1 {
     color: #FF0004;
     width: 90%;
+    font-family: "Century Gothic";
+    font-size: 3em;
 }
 section {
     width: 100%;
@@ -40,42 +60,69 @@ section form label {
     display: block;
 }
 .mainmenu {
-    border-top: thin solid #000000;
+    display: none;
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
     border-bottom: thin solid #000000;
-    visibility: hidden;
 }
 
 .mainmenu ul a {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    font-size: 35px;
+    font-size: 40px;
     color: #000000;
+    margin-right: 60px;
 }
 .mainmenu ul a:hover  {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
-    font-size: 35px;
-    color: #000000;
+    font-size: 40px;
+    color: #FF0004;
     font-style: italic;
 }
-ul a li {
-    margin-right: 60px;
+body wrapper h2 {
+    font-family: Century, "Century Schoolbook";
+
+
 }
+.sec2 {
+    text-align: left;
+}
+.sec2 p {
+    text-align: left;
+}
+header {
+    background-position: 0% 0%;
+    background-size: cover;
+}
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+
+
+
+
 
 
 
 
 @media (min-width:50em){
+.mainmenu {
+    display: inline-block;
+
+}
 #icon {
     visibility: hidden;
+    display: none;
 }
 #nav {
-    visibility: hidden;
-}
-.mainmenu {
-    visibility: visible;
+    display: none;
+
 }
 section form div {
     display: inline-block;
@@ -90,6 +137,16 @@ section form section {
 .sec2 {
     text-align: left;
 }
+.logo {
+    display: block;
+    height: 100%;
+}
+header {
+    background-image: url(pizza1.jpg);
+    background-size: cover;
+}
+
+
 
 
 
@@ -100,15 +157,24 @@ section form section {
 }
 
 @media (min-width:100em){
+.mainmenu {
+    display: inline-block;
+
+
+}
 #icon {
     visibility: hidden;
+    display: none;
 }
 #nav {
-    visibility: hidden;
+    display: none;
+
 }
-.mainmenu {
-    visibility: visible;
+.logo {
+    display: inline-block;
 }
+
+
 
 
 

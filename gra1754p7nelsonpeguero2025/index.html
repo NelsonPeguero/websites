@@ -5,25 +5,31 @@
 <title>Pizza Hut Order Form | Nelson Peguero, 2025</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
 <script type="text/javascript">
-    $(document).ready(
+  $(document).ready(
+    function() {
+      $('#icon').click (
         function() {
-            $('#icon').click (
-                function() {
-                    $('#nav').show();
-                    $('#icon').hide();
-                    $('#x_icon').show();
-                }
-            );
-            $('#x_icon').click (
-                function() {
-                    $('#nav').hide();
-                    $('#icon').show();
-                    $('#x_icon').hide();
-                }
-            );
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
         }
-    );
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
 </script>
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
@@ -46,13 +52,14 @@ else
 <body>
 <wrapper>
 
-  <header><img src="images/pizza-hut-logo.jpg" alt="Pizza Hut Logo" class="logo" />
+  <header><img src="images/pizza-hut-logo.jpg" alt="Pizza Hut Logo" width="99" class="logo" />
   </header>
   <div class="mainmenu">
     <ul>
       <a href="#"><li>Home</li></a>
       <a href="#"><li>Menu</li></a>
-      <a href="#"><li>Order Online</li></a>
+      <a href="#"><li>Order Online</li></a><a href="#"><li>About Us</li>
+      </a>
     </ul>
   </div>
             <img id="icon" src="images/navigation_icon.gif" alt="Navigation icon. Click to expand navigation menu."/>
@@ -66,7 +73,7 @@ else
         </nav>
 	<h2>Welcome to Pizza Hut online. You can order online and contact us for any questions regarding our service.</h2>
 <main>
-    <h1>Create Your Pizza Hut Account...</h1>
+    <h1>Create Your Pizza Hut Account:</h1>
     <section>
       <form action="confirm.html" autocomplete="on">
         <div>
