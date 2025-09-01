@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 300">
+  <g id="bg">
+    <image width="1366" height="300" xlink:href="dj_pic.jpg"/>
+  </g>
+  <g id="type">
+    <g>
+      <line x1="17" y1="41" x2="17" y2="238" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+      <line x1="13" y1="43" x2="47" y2="43" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+      <line x1="17" y1="145" x2="47" y2="145" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+      <line x1="13" y1="238" x2="42" y2="238" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8"/>
+      <ellipse cx="71.5" cy="57" rx="41.5" ry="42" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse cx="71.5" cy="150" rx="41.5" ry="42" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse cx="71.5" cy="243" rx="41.5" ry="42" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+      <text transform="translate(122.8 251.57)" fill="#fff" font-family="MyriadPro-Regular, &apos;Myriad Pro&apos;" font-size="36"><tspan x="0" y="0">LE</tspan><tspan x="34.7" y="0" letter-spacing=".03em">C</tspan><tspan x="56.59" y="0">TRIC</tspan></text>
+    </g>
+  </g>
+</svg>
